@@ -55,7 +55,9 @@
 </template>
 
 <script setup lang="ts">
-import type { Learner } from '@/composables/useSession'
+import type { 
+  Learner,
+} from '@/types'
 
 defineProps<{
   learner: Learner

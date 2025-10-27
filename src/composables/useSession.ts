@@ -1,22 +1,8 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
-export interface Learner {
-  id: number
-  name: string
-  avatar: string
-  status: 'active' | 'paused' | 'completed'
-  progress: number
-  currentModule: string
-  timeElapsed: number // en secondes
-  lastActivity: Date
-}
-
-export interface Session {
-  id: string
-  title: string
-  startTime: Date
-  learners: Learner[]
-}
+import type { 
+  Session, 
+} from '@/types'
 
 export function useSession() {
   // Données initiales de la session

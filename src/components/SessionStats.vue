@@ -59,15 +59,12 @@
 </template>
 
 <script setup lang="ts">
-interface Stats {
-  total: number
-  active: number
-  paused: number
-  completed: number
-}
+import type {
+  SessionStats,
+} from '@/types'
 
 defineProps<{
-  stats: Stats
+  stats: SessionStats
 }>()
 </script>
 
