@@ -27,7 +27,7 @@ export function useSession() {
     learners: [
       {
         id: 1,
-        name: 'Sophie Martin',
+        name: 'Paul Martin',
         avatar: 'https://i.pravatar.cc/150?img=1',
         status: 'active',
         progress: 67,
@@ -47,7 +47,7 @@ export function useSession() {
       },
       {
         id: 3,
-        name: 'Marie Lambert',
+        name: 'Marc Lambert',
         avatar: 'https://i.pravatar.cc/150?img=3',
         status: 'active',
         progress: 89,
